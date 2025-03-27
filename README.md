@@ -34,7 +34,7 @@ Ensure you have the following installed locally:
 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-org/eks-karpenter-terraform.git
+git clone https://github.com/karamkarimov/aws-eks-karpenter.git
 cd eks-karpenter-terraform
 ```
 ## Configure aws
