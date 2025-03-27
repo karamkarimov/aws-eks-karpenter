@@ -85,11 +85,12 @@ Deploy an EKS cluster (v1.30)
 
 Bootstrap Karpenter and configure it for autoscaling
 
-5. Update Your Kubeconfig
+5. Make sure your `kubeconfig` is located at `~/.kube/config` or set the `KUBECONFIG` environment variable:
 
 ```bash
-aws eks --region us-east-1 update-kubeconfig --name karpenter
+export KUBECONFIG=$HOME/.kube/config
 ```
+
 6. Check Karpenter is running:
 
 ```bash
